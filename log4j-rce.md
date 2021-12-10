@@ -23,8 +23,12 @@ set configuration log4j2.formatMsgNoLookups to true
 
 **References**
 
-https://www.lunasec.io/docs/blog/log4j-zero-day/?s=09
+- https://www.lunasec.io/docs/blog/log4j-zero-day/?s=09
+- https://twitter.com/P0rZ9/status/1468949890571337731
+- https://github.com/apache/logging-log4j2/pull/608
+- https://github.com/tangxiaofeng7/apache-log4j-poc
+
 
 **Detection**
 
-https://semgrep.dev/s/chegg:log4j2_tainted_argument
+- https://semgrep.dev/s/chegg:log4j2_tainted_argument
